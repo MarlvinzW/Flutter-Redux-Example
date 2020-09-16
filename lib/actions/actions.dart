@@ -1,0 +1,1 @@
+enum counterActions { Increment, Decrement}
