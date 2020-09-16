@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     StoreConnector<int, VoidCallback>(
                         converter: (store) {
-                          return () => store.dispatch(counterActions.Decrement);
+                          return () => store.dispatch(counterActions.Increment);
                         },
                         builder: (context, callback) => IconButton(
                           onPressed: callback,
